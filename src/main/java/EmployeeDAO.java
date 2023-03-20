@@ -8,8 +8,8 @@ public interface EmployeeDAO {
 
     List<Employee> readAll();
 
-    void upDateEmployeeById(int id, Employee employee);
+    void upDateEmployee(Employee employee);
 
-    void deleteById(int id);
+    void deleteEmployee(Employee employee);
 
 }
